@@ -4,7 +4,7 @@ const formSubmit = (event) => {
     const formData = new FormData(frm)
     const date = new Date(formData.get('bday'))
     const Year = date.getFullYear().toString()
-    const CC = parseInt(Year.slice(0,2))
+    const CC = parseInt(Year.slice(0,2)) // parseInt returns an integer //
     const YY = parseInt(Year.slice(2,4));
     const MM = date.getMonth()
     const DD = date.getDay()
