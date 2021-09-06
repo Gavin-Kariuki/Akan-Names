@@ -6,7 +6,7 @@ const formSubmit = (event) => {
     const Year = date.getFullYear().toString()
     const CC = parseInt(Year.slice(0,2)) // parseInt returns an integer //
     const YY = parseInt(Year.slice(2,4));
-    const MM = date.getMonth()
+    const MM = date.getMonth() // getMonth is a method for getting month in a calender //
     const DD = date.getDay()
     const mNames = ["Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"]
     const fNames = ["Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"]
