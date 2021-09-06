@@ -5,7 +5,7 @@ const formSubmit = (event) => {
     const date = new Date(formData.get('bday'))
     const Year = date.getFullYear().toString()
     const CC = parseInt(Year.slice(0,2))
-    const YY = parseInt(Year.slice(2,4))
+    const YY = parseInt(Year.slice(2,4));
     const MM = date.getMonth()
     const DD = date.getDay()
     const mNames = ["Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"]
