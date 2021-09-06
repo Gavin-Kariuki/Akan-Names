@@ -5,6 +5,11 @@
 The Akan app is meant to give an individual a ghanaian name depending on the day of the week there were born and also their gender. It's a pretty cool app.
 ## Technologies Used
 HTML, CSS, Bootstrap(CSS framework) and Javascript was used in this project
+## BDD     
+| BEHAVIOUR | OUTPUT|
+|:------------------|:-----------|
+| User loads on to the page  |  User Views Landing page. |
+| User fills the form and submits in formation needed | Akan Name is displayed.  | 
 ## Support and contact details
 Gavin.kariuki@student.moringaschool.com
 ### License
