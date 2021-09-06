@@ -1,4 +1,4 @@
-# Akan-app
+# Ghanaian-Akan app
 #### The project or app is meant to give a ghanaian name to someone depending on the day they were born and also gender, 3-09-2021
 #### By **Gavin Kariuki**
 ## Description
