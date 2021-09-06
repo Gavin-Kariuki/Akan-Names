@@ -12,7 +12,7 @@ const formSubmit = (event) => {
     const fNames = ["Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"]
 
     const dayOfWeek = Math.ceil( (((CC/4) - 2 * CC - 1) + ((5*YY/4)) + ((26 * (MM + 1) /10)) + DD) %7)
-
+    // Math.ceil is for rounding up a number //
     if (formData.get('gender') == 'male') {
         document.querySelector('#jina').innerHTML = "Your Akan name is " + mNames[dayOfWeek-1]
     }else if(formData.get("gender") == 'female'){
